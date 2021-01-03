@@ -1,0 +1,118 @@
+:root{
+    --main-color:#7fffd4;
+    --second-color:#ffe;
+    --main-font:'Yellowtail', cursive;
+    --second-font:'Roboto Mono', monospace;
+    /* font-family: 'Big Shoulders Stencil Text', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Yellowtail', cursive; */
+}
+body{
+    background-image: url('../images/1.jpg');
+    background-attachment: fixed;
+}
+/*Start frist section*/
+#col-header-description{
+    margin-top: 15%;
+}
+#col-header-description h1{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: var(--main-font);
+}
+#col-header-description p{
+    color: var(--main-color);
+    font-family: var(--second-font);
+}
+.header{
+    overflow: hidden;
+    min-height:99vh;
+    color:var(--second-color);
+    /* background-image: url('../images/1.jpg');
+    background-attachment: fixed; */
+}
+.link-learnmore a{
+    color:var(--second-color);
+    border-color:var(--second-color);
+    border-radius: 16px;
+    font-family: var(--second-font);
+    padding-top: 3px;
+}
+.link-learnmore a:hover{
+    background-color:var(--second-color);
+}
+/*End frist section*/
+
+.line{
+    height: 5px;
+    width: 100%;
+    background-color: var(--main-color);
+}
+/*Start About section*/
+.about{
+    min-height: 99vh;
+    /* background-color: linear-gradient(to right, #000,#000);
+    background-color: #003; */
+    color: var(--second-color);
+    background-attachment: fixed;
+}
+.about .h1{
+    font-family: var(--main-font);
+}
+.about .line-small{
+    width:50px;
+    border-bottom: 4px solid var(--main-color);
+}
+.about .par-info{
+    font-size:17px;
+    font-weight: 400;
+    font-family: var(--second-font);
+}
+.about .image-about{
+    /* height: 347px;
+    width: 241px; */
+}
+.about .info-about .h1{
+    font-family: var(--main-font);
+    margin-bottom:0;
+}
+.about .info-about p{
+    font-family: var(--second-font);
+}
+/*End About section*/
+
+/*End About section*/
+.img-carousel{
+    height: 99vh;
+    width:200px;
+}
+#head-carousel{
+    font-family: var(--main-font);
+}
+#par-carousel{
+    background-color: linear-gradient(to right,var(--main-color),var(--second-color));
+    font-family: var(--second-font);
+}
+/*End About section*/
+
+/*Start Features section*/
+.features{}
+.features .img-featuers{
+    max-height: 400px;
+    border-radius: 30px;
+}
+.features .features-info{
+    counter-reset: info;
+    font-family: var(--second-font);
+}
+.features .features-info h4::before{
+    counter-increment: info;
+    content: counter(info) "- ";
+}
+.features .features-par{color: var(--second-color);}
+.features .features-par span{color: var(--main-color);}
+/* .features .features-img{
+    position: relative;
+    left: 101px;
+} */
+/*End Features section*/
