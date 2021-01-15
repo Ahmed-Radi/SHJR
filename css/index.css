@@ -117,7 +117,7 @@ body{
 } */
 /*End Features section*/
 
-/*Start Contact Form section*/
+/*Start Contact US section*/
 .contact{
     padding:30px 0;
     color: var(--second-color);
@@ -127,4 +127,25 @@ body{
     max-height: 200px;
     border-radius: 30px;
 }
-/*End Contact Form section*/
+/*End Contact US section*/
+
+/*Start Counter section*/
+.counter-section{
+    /* height: 99vh; */
+    color: var(--second-color);
+    font-family: var(--second-font);
+    text-align: center;
+    padding:90px 0;
+}
+.counter-section .icon i{
+    color: var(--main-color);
+    font-size: 100px;
+}
+#fab{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.counter ,.plus{
+    font-size: 45px;
+}
+/*End Counter section*/
