@@ -56,9 +56,7 @@ body{
     color: var(--second-color);
     background-attachment: fixed;
 }
-.about .h1{
-    font-family: var(--main-font);
-}
+.about .h1{font-family: var(--main-font);}
 .about .line-small{
     width:50px;
     border-bottom: 4px solid var(--main-color);
@@ -76,9 +74,7 @@ body{
     font-family: var(--main-font);
     margin-bottom:0;
 }
-.about .info-about p{
-    font-family: var(--second-font);
-}
+.about .info-about p{font-family: var(--second-font);}
 /*End About section*/
 
 /*End About section*/
@@ -86,9 +82,7 @@ body{
     height: 99vh;
     width:200px;
 }
-#head-carousel{
-    font-family: var(--main-font);
-}
+#head-carousel{font-family: var(--main-font);}
 #par-carousel{
     background-color: linear-gradient(to right,var(--main-color),var(--second-color));
     font-family: var(--second-font);
@@ -132,20 +126,31 @@ body{
 /*Start Counter section*/
 .counter-section{
     /* height: 99vh; */
+    text-align: center;
     color: var(--second-color);
     font-family: var(--second-font);
     text-align: center;
     padding:90px 0;
 }
-.counter-section .icon i{
-    color: var(--main-color);
-    font-size: 100px;
-}
-#fab{
-    margin-top:10px;
-    margin-bottom:10px;
-}
-.counter ,.plus{
-    font-size: 45px;
-}
+.counter-section .icon i{color: var(--main-color);font-size: 100px;}
+#fab{margin-top:10px;margin-bottom:10px;}
+.counter ,.plus{font-size: 45px;}
 /*End Counter section*/
+
+/*Start Footer section*/
+footer{font-size:50px;padding:30px 0;}
+footer a{text-decoration:none;color:var(--second-color);}
+footer a:nth-child(1):hover{color:#4267B2;}
+footer a:nth-child(2):hover{color:#2867B2;}
+footer a:last-child:hover i{
+    color:#171515;
+    background-color:var(--second-color);
+    border-radius: 100%;
+}
+.copy-right{
+    margin-top:20px;
+    font-size:19px;
+    color:var(--main-color);
+    font-family: var(--main-font);
+}
+/* End Footer section */
