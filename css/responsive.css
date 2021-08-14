@@ -40,7 +40,7 @@
         height:64vh;
     }
     #col-header-description{
-        margin-top: 10px;
+        margin-top: 207px;
         text-align: center;
         padding-bottom:20px;
     }
@@ -52,9 +52,9 @@
         padding-bottom: 12px;
     }
     /*carousel*/
-    .carousel-inner{
+    /* .carousel-inner{
         height: 600px;
-    }
+    } */
     /*Contact US*/
     .img-contact{
         padding-bottom:10px;
@@ -63,10 +63,15 @@
         margin-left:22%;
     }
 }
+@media (min-width:846px) and (max-width:896px){
+    #home{
+        height: 96vh;
+    }
+}
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 767.99px) and (max-width: 991.98px) {
     #home{
-        min-height: 60vh;
+        min-height: 40vh;
     }
     #col-header-description{
         text-align: center;
