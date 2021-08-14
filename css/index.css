@@ -11,6 +11,28 @@ body{
     background-image: url('../images/1.jpg');
     background-attachment: fixed;
 }
+/*Start navbar*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 5;
+    box-shadow: 0 2px 2px 0 #00ffff;
+    transition: background 1s ease-in-out;
+    transition: box-shadow 1s ease-in-out;
+    font-size: 20px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 28px;
+}
+.nav-link{
+    text-transform: capitalize;
+}
+li .nav-link.active{
+    color: #00ffff !important;
+}
+/*End navbar*/
 /*Start frist section*/
 #col-header-description{margin-top: 15%;}
 #col-header-description h1{
@@ -69,7 +91,8 @@ body{
 /*End About section*/
 
 /*End About section*/
-.img-carousel{height: 99vh;width:200px;}
+.img-carousel{height: 100vh;width:200px;}
+.carousel-item.img-carousel{height:100%;width:100%;}
 #head-carousel{font-family: var(--main-font);}
 #par-carousel{
     background-color: linear-gradient(to right,var(--main-color),var(--second-color));
